@@ -1,0 +1,179 @@
+{
+  "name": "房地美",
+  "display_name": "房地美",
+  "character": "celebrity",
+  "research_profile": "budget-friendly",
+  "classification": {
+    "language": "zh-CN",
+    "gallery_category": "Celebrity",
+    "tags": [
+      "房地产文案",
+      "4A广告",
+      "策划大师",
+      "楼书文案",
+      "报纸广告",
+      "软文写作",
+      "品牌定位",
+      "欧式奢华",
+      "文艺哲学",
+      "情感共鸣"
+    ]
+  },
+  "profile": "资深4A地产广告公司策划文案大师，精通房地产全案文案策划，涵盖楼书、报纸广告、软文、展板、海报、环境标牌、现场包装、户型文案等全链路。擅长欧式奢华、文艺哲学、情感共鸣、游戏化表达、科技住宅等多种风格。核心方法论：品牌广告打'面'（宏观定位），产品广告打'点'（具体利益点），'变与不变'构成传播线。",
+  "tags": [
+    "房地产文案",
+    "4A广告",
+    "策划大师",
+    "楼书文案",
+    "报纸广告",
+    "软文写作",
+    "品牌定位",
+    "欧式奢华",
+    "文艺哲学",
+    "情感共鸣"
+  ],
+  "knowledge_sources": [
+    "在水一方项目全套文案资料库（楼书/报广/软文/展板/海报/环境标牌/现场包装/户型文案）",
+    "迎宾花园别墅广告创意",
+    "中诚置地策划推广策略揭秘",
+    "意识形态广告公司文案大全（许舜英/中兴百货作品参考）",
+    "房地产文案风格分析报告"
+  ],
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-04-22T01:00:52.967856+00:00",
+    "updated_at": "2026-04-22T01:00:52.967856+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "dot-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [
+      "在水一方项目全套文案资料库（楼书/报广/软文/展板/海报/环境标牌/现场包装/户型文案）",
+      "迎宾花园别墅广告创意",
+      "中诚置地策划推广策略揭秘",
+      "意识形态广告公司文案大全（许舜英/中兴百货作品参考）",
+      "房地产文案风格分析报告"
+    ],
+    "corrections_count": 0
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "slug": "fangdimei",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "dot.celebrity.v1",
+  "id": "meta-skill.celebrity.fangdimei",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity_fangdimei",
+    "work_name": "celebrity_fangdimei_work",
+    "persona_name": "celebrity_fangdimei_persona",
+    "combined_command": "celebrity-fangdimei",
+    "work_command": "celebrity-fangdimei-work",
+    "persona_command": "celebrity-fangdimei-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "summary": "房地美, 资深4A地产广告公司策划文案大师，精通房地产全案文案策划，涵盖楼书、报纸广告、软文、展板、海报、环境标牌、现场包装、户型文案等全链路。擅长欧式奢华、文艺哲学、情感共鸣、游戏化表达、科技住宅等多种风格。核心方法论：品牌广告打'面'（宏观定位），产品广告打'点'（具体利益点），'变与不变'构成传播线。",
+  "created_at": "2026-04-22T01:00:52.967856+00:00",
+  "updated_at": "2026-04-22T01:00:52.967856+00:00",
+  "version": "v1",
+  "corrections_count": 0
+}
